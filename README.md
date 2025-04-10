@@ -32,4 +32,4 @@ git push
 
 
 hemangachamod@gmail.com
-Github Personal access tokens (used as git password): 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
+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
