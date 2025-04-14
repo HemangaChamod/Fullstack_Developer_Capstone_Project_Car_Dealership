@@ -67,6 +67,38 @@ def logout_request(request):
 # @csrf_exempt
 # def registration(request):
 # ...
+@csrf_exempt
+def registration(request):
+    if request.method == "POST":
+        try:
+            data = json.loads(request.body)
+            username = data['userName']
+            password = data['password']
+            first_name = data['firstName']
+            last_name = data['lastName']
+            email = data['email']
+
+            # Check if username already exists
+            if User.objects.filter(username=username).exists():
+                return JsonResponse({"userName": username, "error": "Already Registered"})
+
+            # Create new user
+            user = User.objects.create_user(
+                username=username,
+                password=password,
+                first_name=first_name,
+                last_name=last_name,
+                email=email
+            )
+
+            # Log in the new user
+            login(request, user)
+            return JsonResponse({"userName": username, "status": "Authenticated"})
+        except Exception as e:
+            logger.error(f"Registration error: {str(e)}")
+            return JsonResponse({"status": "Error", "message": str(e)}, status=400)
+    else:
+        return JsonResponse({"status": "Invalid request method"}, status=405)
 
 
 # # Update the `get_dealerships` view to render the index page with
