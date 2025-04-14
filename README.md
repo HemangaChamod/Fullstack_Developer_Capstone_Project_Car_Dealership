@@ -31,5 +31,12 @@ git commit -m"Adding temporary changes to Github"
 git push
 
 
-hemangachamod@gmail.com
-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
+HemangaChamod
+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
+
+
+Django administration:
+
+chamodrathna
+chamodrathnawardana@gmail.com
+20049
