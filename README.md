@@ -31,8 +31,7 @@ git commit -m"Adding temporary changes to Github"
 git push
 
 
-HemangaChamod
-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
+
 
 
 Django administration:
