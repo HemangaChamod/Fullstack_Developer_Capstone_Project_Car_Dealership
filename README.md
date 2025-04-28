@@ -17,6 +17,12 @@ pip3 install django
 python3 manage.py runserver
 
 
+docker stop mongodb
+docker-compose up --build
+
+
+
+
 
 Procedure to push your changes into Git repo:
 
