@@ -45,3 +45,20 @@ Django administration:
 chamodrathna
 chamodrathnawardana@gmail.com
 20049
+
+
+IBMid
+cOF2ChKXtH
+
+sn-labs-rathnaw
+
+
+ibm-registry-secret
+
+RuGZ1aO9jHC58GRs2RrcFXPBab6XS5Pj2odq0e3bHREv
+
+
+
+URL for the application running in the lab Kubernetes cluster:
+
+https://chamodrathna-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/
