@@ -6,6 +6,7 @@ The goal of this platform is to provide a user-friendly application that allows 
 
 ## 🛠️ Technologies Used
 
+- **Programming Languages**: Python, JavaScript 
 - **Frontend**: HTML, CSS, JavaScript, React  
 - **Backend**: Node.js, Django  
 - **Database**: NoSQL (MongoDB)  
@@ -13,7 +14,7 @@ The goal of this platform is to provide a user-friendly application that allows 
 - **CI/CD**: GitHub Actions, Jenkins  
 - **Serverless Deployment**: IBM Code Engine  
 - **Cloud Deployment**: Kubernetes  
-- **Programming Languages**: Python, JavaScript  
+ 
 
 ---
 
